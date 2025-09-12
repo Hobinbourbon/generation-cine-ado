@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Génération ciné ado — Bruay-la-Buissière</title>
+  <meta name="description" content="Génération ciné ado — association loi 1901 à Bruay-la-Buissière. Films réalisés par des adolescents, production, projections, ateliers." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons (simple SVG sprite alternative) -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Open Graph (exemples) -->
+  <meta property="og:title" content="Génération ciné ado" />
+  <meta property="og:description" content="Films réalisés par des adolescents — Bruay-la-Buissière" />
+  <meta property="og:type" content="website" />
+
+</head>
+<body>
+  <!-- Fixed navigation -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+        <div class="logo-mark" aria-hidden="true">🎬</div>
+        <div class="logo-text">
+          <span class="name">Génération ciné ado</span>
+          <small class="tag">Association loi 1901 — Bruay-la-Buissière</small>
+        </div>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Menu</span>
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" role="navigation">
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#films">Nos films</a></li>
+          <li><a href="#team">Équipe</a></li>
+          <li><a href="#events">Événements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section id="home" class="hero" role="banner">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <h1 class="hero-title">Génération ciné ado</h1>
+        <p class="hero-sub">Raconter le monde par les yeux des jeunes — Produire, former, projeter.</p>
+        <a href="#films" class="btn btn-primary">Découvrir nos films</a>
+        <a href="#events" class="btn btn-outline">Prochaines projections</a>
+      </div>
+      <!-- Decorative film reel -->
+      <div class="film-strip" aria-hidden="true"></div>
+    </section>
+
+    <!-- À propos -->
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="grid about-grid">
+          <div class="about-media" aria-hidden="true">
+            <!-- Large poster-style image -->
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Caméra et projecteur — illustration cinéma">
+          </div>
+          <div class="about-content">
+            <h2>Qui sommes-nous ?</h2>
+            <p class="lead">Génération ciné ado est une association loi 1901 basée à Bruay-la-Buissière, dédiée à la production de films réalisés par des adolescents. Nous accompagnons la création, la formation technique et artistique, et organisons des projections publiques.</p>
+
+            <h3>Nos objectifs</h3>
+            <ul>
+              <li>Promouvoir le cinéma fait par et pour les jeunes.</li>
+              <li>Former aux métiers du cinéma (réalisation, image, son, montage).</li>
+              <li>Créer des parcours de diffusion locaux et festivalier.</li>
+            </ul>
+
+            <h3>Hobin Bourbon — réalisateur principal</h3>
+            <p><strong>Hobin Bourbon</strong>, 16 ans, est le réalisateur principal de l’association. Passionné par la narration visuelle, Hobin supervise les projets, co-écrit les scénarios et dirige les équipes de tournage composées de jeunes talents locaux.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nos films -->
+    <section id="films" class="section films">
+      <div class="container">
+        <div class="section-head">
+          <h2>Nos films</h2>
+          <p class="muted">Une sélection de nos créations : affiches, extraits et teasers. Cliquez pour agrandir / lancer.</p>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio">
+          <!-- Card 1 -->
+          <article class="card film-card" data-type="video" data-src="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <figure class="thumb">
+              <img src="https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Affiche film A">
+              <figcaption>
+                <h4>Titre du film A</h4>
+                <p>Teaser — 2024</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card film-card" data-type="image" data-src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+            <figure class="thumb">
+              <img src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Affiche film B">
+              <figcaption>
+                <h4>Titre du film B</h4>
+                <p>Affiche officielle — 2023</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card film-card" data-type="video" data-src="https://www.youtube.com/watch?v=2Vv-BfVoq4g">
+            <figure class="thumb">
+              <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Affiche film C">
+              <figcaption>
+                <h4>Titre du film C</h4>
+                <p>Extrait — 2022</p>
+              </figcaption>
+            </figure>
+          </article>
+
+          <!-- Card 4 (image) -->
+          <article class="card film-card" data-type="image" data-src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+            <figure class="thumb">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Affiche film D">
+              <figcaption>
+                <h4>Titre du film D</h4>
+                <p>Affiche — 2021</p>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal / Lightbox for gallery (hidden by default) -->
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+      <button class="lightbox-close" id="lb-close" aria-label="Fermer la fenêtre">✕</button>
+      <div class="lightbox-content" id="lb-content" tabindex="0"></div>
+      <div class="lightbox-caption" id="lb-caption"></div>
+    </div>
+
+    <!-- Équipe -->
+    <section id="team" class="section team">
+      <div class="container">
+        <div class="section-head">
+          <h2>Équipe</h2>
+          <p class="muted">Les bénévoles et professionnels qui rendent les projets possibles.</p>
+        </div>
+
+        <div class="team-grid">
+          <div class="member-card">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Hobin Bourbon">
+            <h4>Hobin Bourbon</h4>
+            <small>Réalisateur principal — 16 ans</small>
+            <p>Scénariste & chef de projet. Direction artistique et coaching des équipes jeunes.</p>
+          </div>
+
+          <div class="member-card">
+            <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Nom membre">
+            <h4>Claire Dubois</h4>
+            <small>Production</small>
+            <p>Responsable production & logistique des tournages.</p>
+          </div>
+
+          <div class="member-card">
+            <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Nom membre">
+            <h4>Samir Lefèvre</h4>
+            <small>Image / Son</small>
+            <p>Directeur photographie et ingénieur son — ateliers techniques.</p>
+          </div>
+
+          <div class="member-card">
+            <img src="https://images.unsplash.com/photo-1545996124-1f6b0b1d7a11?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Nom membre">
+            <h4>Équipe bénévole</h4>
+            <small>Acteurs & techniciens</small>
+            <p>Un collectif de jeunes acteurs et techniciens bénévoles.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Événements & Projections -->
+    <section id="events" class="section events">
+      <div class="container">
+        <div class="section-head">
+          <h2>Événements & Projections</h2>
+          <p class="muted">Retrouve nos prochaines projections, ateliers et participations en festival.</p>
+        </div>
+
+        <div class="events-grid" id="events-list">
+          <!-- Each event card can be dynamically updated -->
+          <article class="event-card">
+            <time datetime="2025-10-05">5 octobre 2025</time>
+            <h4>Projection publique — Salle Marcel Pagnol</h4>
+            <p>Soirée de projections suivie d’un échange avec l’équipe. Entrée libre / réservation conseillée.</p>
+            <a class="btn btn-sm" href="#contact">Réserver</a>
+          </article>
+
+          <article class="event-card">
+            <time datetime="2025-11-12">12 novembre 2025</time>
+            <h4>Atelier initiation caméra</h4>
+            <p>Atelier technique pour 13–18 ans — prise de vue et montage. Places limitées.</p>
+            <a class="btn btn-sm" href="#contact">S'inscrire</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Pour rejoindre l’association, proposer un partenariat ou réserver une projection.</p>
+        </div>
+
+        <div class="grid contact-grid">
+          <form id="contact-form" class="contact-form" novalidate>
+            <label for="name">Nom</label>
+            <input id="name" name="name" type="text" required minlength="2" placeholder="Ton nom">
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="contact@example.com">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required minlength="10" placeholder="Ton message..."></textarea>
+
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+            <div id="form-msg" class="form-msg" role="status" aria-live="polite"></div>
+          </form>
+
+          <aside class="contact-info" aria-labelledby="contact-info">
+            <h3 id="contact-info">Infos pratiques</h3>
+            <p><strong>Email :</strong> <a href="mailto:contact@generationcineado.org">contact@generationcineado.org</a></p>
+            <p><strong>Adresse :</strong> Bruay-la-Buissière, France</p>
+
+            <h4>Suivez-nous</h4>
+            <div class="socials">
+              <a href="#" aria-label="Facebook">FB</a>
+              <a href="#" aria-label="Instagram">IG</a>
+              <a href="#" aria-label="YouTube">YT</a>
+            </div>
+
+            <h4>Dossier de presse</h4>
+            <p><a href="/docs/dossier-de-presse.pdf" target="_blank" rel="noopener">Télécharger le dossier (PDF)</a></p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Association loi 1901 — Génération ciné ado — Bruay-la-Buissière</p>
+      <nav class="footer-links" aria-label="Liens de pied de page">
+        <a href="/mentions-legales.html">Mentions légales</a>
+        <a href="/statuts.pdf">Statuts</a>
+      </nav>
+      <p class="copyright">© <span id="year"></span> Génération ciné ado</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
